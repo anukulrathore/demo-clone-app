@@ -15,7 +15,7 @@ const NavBar = () => {
             <img src="./Logo.webp" alt="logo" height={150} width={150}/>
         </div>
 
-      <div className="hidden md:flex bg-secondary">
+      <div className="hidden md:flex">
         {navbarItems.map( item =>{
             return (
                 <button
