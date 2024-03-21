@@ -4,7 +4,7 @@ import NavBar from '../components/NavBar'
 
 const Homepage = () => {
   return (
-    <div className=' bg-primary'>
+    <div>
         <NavBar />
         <HeadSection />
     </div>
