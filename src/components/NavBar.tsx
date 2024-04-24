@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-const navbarItems = ["Home", "Solution", "Pricing", "Support", "Resources", "Blog", "Signup/Login"]
+const navbarItems = ["Home", "Players", "Venues", "Other Offerings", "Resources", "Blog", "Signup/Login"]
 
 const NavBar = () => {
 
@@ -11,8 +11,9 @@ const NavBar = () => {
 
   return (
     <div className="flex justify-between py-2 px-10 shadow-lg">
-        <div>
-            <img src="./Logo.webp" alt="logo" height={150} width={150}/>
+        <div className="flex">
+            <img src="./hudle.svg" alt="logo" height={100} width={100}/>
+            {/* <p className=" font-bold text-2xl p-2">JustMove.fun</p> */}
         </div>
 
       <div className="hidden md:flex">
