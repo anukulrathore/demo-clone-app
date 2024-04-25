@@ -59,7 +59,7 @@ const Jobsearch = () => {
             />
             <button
               type="submit"
-              className="text-white bg-primary rounded mt-3 p-2 font-large hover:opacity-90"
+              className="text-white bg-primary rounded mt-3 p-2 font-large hover:bg-green-500"
             >
               Search
             </button>
